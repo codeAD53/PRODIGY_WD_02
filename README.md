@@ -1,4 +1,6 @@
-💻PRODIGY_WD_02 - Stopwatch Application
+🕐 **PRODIGY_WD_02 - Stopwatch Web Application**
+
+📌 **Task-02 - Prodigy Infotech Web Development Internship**
 
 This project is part of the **Prodigy Infotech Web Development Internship (Task-02)**. It is a simple yet interactive Stopwatch Web Application built using **HTML**, **CSS**, and **JavaScript**.
 
