@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.stopwatch-section {
+    flex: 1;
+}
+
+.laps-section {
+    flex: 1;
+    color: #0ff;
+    font-size: 1rem;
+}
+
+h3 {
+    /* color: #32cd32 */
+    color: #00e5ff;
+}
+
+.triangle-container {
+    width: 520px;
+    height: 400px;
+    background: #1a1a2e;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: relative;
+    border: 2px solid rgba(0, 100, 0, 1);
+}
+
+.stopwatch-content {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.display {
+    font-size: 2rem;
+    color: #0ff;
+    margin: 10px 0;
+}
+
+.buttons button {
+    margin: 4px;
+    padding: 6px 12px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+    color: #00ffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+#start {
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+}
+
+#pause {
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+}
+
+#reset {
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+}
+
+#lap {
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+}
+
+.buttons button:active {
+    transform: scale(0.95);
+    box-shadow: inset 0 0 15px #000;
+}
+
+#laps {
+    list-style: none;
+    padding-left: 0;
+}
+
+.scaler {
+    transform: scale(1.3);
+    transform-origin: top-center;
+}
